@@ -1,4 +1,3 @@
-
 const express = require('express');
 const crypto = require('crypto');
 const app = express();
@@ -231,4 +230,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 API rodando na porta ${PORT}`);
   console.log(`📍 Acesse: http://localhost:${PORT}`);
+
 });
